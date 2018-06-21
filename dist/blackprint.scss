@@ -58,6 +58,13 @@ div[class^="col-"] {
     }
 }
 
+.flush {
+    .col,
+div[class^="col-"] {
+    max-width: 100%;
+}
+}
+
 .col.a-a {
     flex: 0 0 auto;
 }
