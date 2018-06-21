@@ -16,7 +16,7 @@ View the [instructions](https://kylewetton.github.io/blackprint/)
 npm install --save blackprint
 ```
 
-#### Clone
+#### Download
 
 Download/clone [the repo](https://github.com/kylewetton/blackprint) and link to blackprint.min.css before your custom styles from the /dist folder.
 
