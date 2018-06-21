@@ -16,7 +16,7 @@ Install via
 npm install --save blackprint
 ```
 
-Else, simply download/clone this repo and link to blackprint.min.css before your custom styles from the /dist folder.
+Else, simply download/clone [the repo](https://github.com/kylewetton/blackprint) and link to blackprint.min.css before your custom styles from the /dist folder.
 
 ```
  <link rel="stylesheet" href="./ASSETS_FOLDER/blackprint.min.css">

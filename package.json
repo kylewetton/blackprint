@@ -1,6 +1,6 @@
 {
   "name": "blackprint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight flexbox grid system",
   "main": "index.js",
   "scripts": {
