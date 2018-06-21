@@ -19,7 +19,7 @@ Simply link to blackprint.min.css before your custom styles, get the files from 
 Or, work with the Sass file. Choosing this route lets you change some basic options (breakpoints, container width, and margin widths)
 
 ```
-@import './ASSETS_FILDER/blackprint.scss';
+@import './ASSETS_FOLDER/blackprint.scss';
 ```
 
 ### Features
