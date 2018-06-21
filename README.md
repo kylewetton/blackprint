@@ -8,15 +8,15 @@ Blackprint includes all of the basic features of a grid, keeping the ones you'd 
 
 View the [instructions](https://kylewetton.github.io/blackprint/)
 
-### Installing
+## Installing
 
-#### npm
+### npm
 
 ```
 npm install --save blackprint
 ```
 
-#### Download
+### Download
 
 Download/clone [the repo](https://github.com/kylewetton/blackprint) and link to blackprint.min.css before your custom styles from the /dist folder.
 
@@ -30,7 +30,7 @@ Or, work with the Sass file. Choosing this route lets you change some basic opti
 @import './ASSETS_FOLDER/blackprint.scss';
 ```
 
-#### CDN
+### CDN
 
 Link to the minified css at
 
