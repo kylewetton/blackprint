@@ -6,7 +6,7 @@
 
 Blackprint includes all of the basic features of a grid, keeping the ones you'd need and leaving the rest.
 
-View the [demo](https://kylewetton.github.io/blackprint/)
+View the [instructions](https://kylewetton.github.io/blackprint/)
 
 ### Installing
 
