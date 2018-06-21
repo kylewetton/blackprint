@@ -24,4 +24,4 @@ Or, work with the Sass file. Choosing this route lets you change some basic opti
 
 ## Authors
 
-* **Kyle Wetton** - *Initial work* - [Kyle Wetton](https://github.com/kylewetton)
+* **Kyle Wetton**
