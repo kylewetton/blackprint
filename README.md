@@ -35,7 +35,7 @@ Or, work with the Sass file. Choosing this route lets you change some basic opti
 Link to the minified css at
 
 ```
-<link rel="stylesheet" href="https://unpkg.com/blackprint@1.0.2/dist/blackprint.min.css">
+<link rel="stylesheet" href="https://unpkg.com/blackprint/dist/blackprint.min.css">
 ```
 
 ## Authors
