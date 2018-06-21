@@ -1,4 +1,4 @@
-![alt text](./demo/assets/Blackprint-logo.svg)
+![alt text](https://kylewetton.github.io/blackprint/assets/Blackprint-logo.svg)
 
 **Blackprint is a 12 column flexbox grid, weighing only 5Kb**
 
