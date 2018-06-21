@@ -1,6 +1,6 @@
 ![alt text](./demo/assets/Blackprint-logo.svg)
 
-**Blackprint is a 12 column flexbox grid, weighing only 3Kb**
+**Blackprint is a 12 column flexbox grid, weighing only 5Kb**
 
 ## Getting Started
 
