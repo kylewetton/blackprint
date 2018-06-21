@@ -14,7 +14,6 @@ Install via
 
 ```
 npm install --save blackprint
-
 ```
 
 Else, simply download/clone this repo and link to blackprint.min.css before your custom styles from the /dist folder.
