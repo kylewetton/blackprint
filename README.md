@@ -6,7 +6,7 @@ Blackprint is a 12 column flexbox grid, weighing only 3Kb
 
 Blackprint includes all of the basic features of a grid, keeping the ones you'd need and leaving the rest.
 
-View the [demo](#)
+View the [demo](https://kylewetton.github.io/blackprint/)
 
 ### Installing
 
