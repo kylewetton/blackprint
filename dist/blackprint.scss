@@ -45,7 +45,6 @@ html {
 div[class^="col-"] {
     position: relative;
     flex: 1 0 100%;
-    max-width: 100%;
     max-width: calc(100% - #{$gutter-w});
     margin-right: $gutter-w / 2;
     margin-left: $gutter-w / 2;
@@ -58,13 +57,6 @@ div[class^="col-"] {
     }
 }
 
-.flush {
-    .col,
-div[class^="col-"] {
-    max-width: 100%;
-}
-}
-
 .col.a-a {
     flex: 0 0 auto;
 }
@@ -74,6 +66,7 @@ div[class^="col-"] {
     div[class^="col-"] {
         margin-left: 0;
         margin-right: 0;
+        max-width: 100%;
     }
 }
 
