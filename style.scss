@@ -93,6 +93,19 @@ opacity: 0.90;
     }
 }
 
+footer {
+    margin-top: 2em;
+    color: white;
+    background: $theme;
+    padding: 4em;
+    text-align: center;
+    img {
+        width: 100px;
+        height: auto;
+        
+    }
+}
+
 @keyframes dash {
     0% {
       troke-dasharray: 1 200;
