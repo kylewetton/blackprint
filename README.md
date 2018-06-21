@@ -10,13 +10,15 @@ View the [instructions](https://kylewetton.github.io/blackprint/)
 
 ### Installing
 
-Install via
+#### npm
 
 ```
 npm install --save blackprint
 ```
 
-Else, simply download/clone [the repo](https://github.com/kylewetton/blackprint) and link to blackprint.min.css before your custom styles from the /dist folder.
+#### Clone
+
+Download/clone [the repo](https://github.com/kylewetton/blackprint) and link to blackprint.min.css before your custom styles from the /dist folder.
 
 ```
  <link rel="stylesheet" href="./ASSETS_FOLDER/blackprint.min.css">
@@ -26,6 +28,14 @@ Or, work with the Sass file. Choosing this route lets you change some basic opti
 
 ```
 @import './ASSETS_FOLDER/blackprint.scss';
+```
+
+#### CDN
+
+Link to the minified css at
+
+```
+<link rel="stylesheet" href="https://unpkg.com/blackprint@1.0.2/dist/blackprint.min.css">
 ```
 
 ## Authors
