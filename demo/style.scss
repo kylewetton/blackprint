@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+@import '../dist/blackprint.scss';
+
+@mixin scale-up-center {
+	-webkit-animation: scale-up-center 0.3s forwards;
+	        animation: scale-up-center 0.3s forwards;
+}
+// Theme
+
+$background: #FFFFFF;
+$theme: #311B38;
+
+body, html {
+    font-family: 'Song Myung', serif;
+    height: 100%;
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-position: 50%;
+    line-height: 1.5;
+}
+
+header, .container, .container-fluid {
+    text-align: center;
+    color: white;
+    
+}
+
+header {
+    margin: 4em 0 2em;
+    .slogan {
+        color: $theme;
+    }
+}
+
+// Demo purposes only
+.col, div[class^="col-"] {
+    background: $theme;
+   // opacity: 0;
+    color: $background;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 4px;
+    margin-bottom: $gutter-w;
+ //   @include scale-up-center;
+}
+
+.row.exp {
+    .col {
+        background: transparent;
+        
+        padding: 0;
+        p {
+            color: $theme;
+            span {
+                opacity: 0.33;
+            }
+        }
+    }
+}
+
+code {
+    background: #eeeeee;
+    color: $theme;
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.flush {
+    .col:first-child {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .col:last-child {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+}
+
+
+.flush-demo {
+border-radius: 0;
+opacity: 0.90;
+}
+
+#logo {
+    path {
+       fill: $theme;
+    //    stroke: $theme;
+   //    stroke-width: 0px;
+   //    stroke-dasharray: 1 200;
+    //  animation: dash 1.5s ease-out forwards;
+    }
+}
+
+@keyframes dash {
+    0% {
+      troke-dasharray: 1 200;
+      stroke-width: 1;
+    }
+    50% {
+    }
+    66% {
+      stroke-width: 1;
+      fill: transparent;
+    }
+    90% {
+      stroke-dasharray: 200 0;
+    }
+    100% {
+      fill: $theme;
+      stroke-width: 0;
+      margin-left: 0;
+      transform: translate(0px);
+    }
+  }
+
+  @for $i from 1 through 10 {
+    .col:nth-of-type(#{$i}) {
+      animation-delay: $i * 200 + ms;
+    }
+  }
+
+
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-up-center {
+   0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+     opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+  }

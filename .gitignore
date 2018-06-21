@@ -1,0 +1,83 @@
+# OS generated files #
+######################
+*~
+.DS_Store*
+.project
+.settings
+ehthumbs.db
+Thumbs.db
+.svn
+.directory
+# IDE generated files #
+#######################
+*.bbprojectd
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.swp
+*~.nib
+nbproject
+.komodotools
+.idea
+# Vendor packages #
+node_modules
+# Wordpress #
+wp-config.php
+# wp-content/uploads
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+# Logs and databases #
+######################
+*.log
+*.sql
+
+# WordPress #
+#############
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.cvs
+*.svn
+*.dat
+*.out
+*.pid
+*.gz
+*.sql
+Search-Replace-DB-master/
+pids
+logs
+results
+npm-debug.log
+node_modules
+.sass-cache
+# sitemap.xml
+# sitemap.xml.gz
+# wp-config.php
+# wp-content/advanced-cache.php
+# wp-content/backup-db/
+# wp-content/backups/
+# wp-content/blogs.dir/
+# wp-content/cache/
+# wp-content/upgrade/
+# wp-content/uploads/
+# wp-content/wp-cache-config.php
+# wp-content/plugins/
+# wp-content/managewp/
